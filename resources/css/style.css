@@ -332,7 +332,7 @@ header {
 
 .btn-app:link,
 .btn-app:visited {
-    border: o;
+    border: 0;
 }
 
 .btn-app img {
@@ -340,11 +340,6 @@ header {
     width: auto;
     margin-right: 10px;
 }
-.btn-app:link,
-.btn-app:visited {
-    border: 0;
-}
-
 
 /* ---------------------------- */
 /* CITIES */
@@ -489,7 +484,7 @@ input[type="checkbox"] {
     margin: 10px 5px 10px 0;
 } 
 
-*:focus {outline: none};
+*:focus {outline: none}
 
 /* ---------------------------- */
 /* FOOTER */
