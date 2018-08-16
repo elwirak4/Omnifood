@@ -82,4 +82,22 @@ $(document).ready(function(){
         }
     });
     
+    /* Map */
+    
+    var map = new GMaps({
+        div: '#map',
+        lat: 51.4941931,
+        lng: 0.0204705,
+        zoom: 12
+    });
+    
+    map.addMarker({
+        lat: 51.4941931,
+        lng: -0.1234705,
+        title: 'London Omnifood',
+        infoWindow: {
+            content: '<p>London Omnifood</p>'
+        }
+    });
+    
 });   
